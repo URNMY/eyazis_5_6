@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Speech</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+    <body>
+
+      <header>
+        <div class="container">
+          <nav class="navbar navbar-inverse">
+              <div class="container-fluid" style="background-color: #b11223">
+                <ul class="nav navbar-nav">
+                  <li><a style="color:whitesmoke"href="http://localhost:5000/speech">Speech synthesis</a></li>
+                  <li><a style="color:whitesmoke" href="http://localhost:5000/recognize">Speech analysis</a></li>
+                </ul>
+              </div>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+            <h1>How to deal with application:</h1>
+            <hr>
+            <h4>
+                To make your system pronounce all the phrases you pass into the text field, you need come here
+                <a href="http://localhost:5000/speech">"Speech synthesis"</a> and select all the variable values
+                to customize your voice into something that you want to hear where the following customization options
+                will be available:
+            </h4>
+            <p> - text input, or copying through the buffer in a special field;</p>
+            <p> - adjusting (selecting) the speaker's voice, tempo, volume;</p>
+            <p> - playback of the generated speech signal for the entered text with button below.</p>
+            <hr>
+            <h4>
+                To make your system hear you and do whatever you want with text information, that was passed in, you
+                just need to come here <a href="http://localhost:5000/recognize">"Speech synthesis"</a> and after
+                button clicking pronounce something in german language with code word in your message, but system can
+                recognize and deal with specific available options, that are:
+            </h4>
+            <p> - command "sagen" - to pronounce the text after you;</p>
+            <p> - command "finden" - to open your message text in google query;</p>
+            <p> - command "zeig mir" - to just output your text on display.
+        </div>
+      </main>
+    </body>
+</html>
